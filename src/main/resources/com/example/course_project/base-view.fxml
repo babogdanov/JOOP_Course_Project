@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="20.0"
+      fx:controller="com.example.course_project.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label fx:id="welcomeText"/>
+    <HBox layoutX="-50" layoutY="-100">
+        <Button text="Display pie chart!" onAction="#onPieChartButtonClick"/>
+        <Button text="Display line chart!" onAction="#onLineChartButtonClick"/>
+        <Button text="Display area chart!" onAction="#onAreaChartButtonClick"/>
+        <Button text="Display bar chart!" onAction="#onBarChartButtonClick"/>
+        <Button text="Display bubble chart!" onAction="#onBubbleChartButtonClick"/>
+        <Button text="Display scatter chart!" onAction="#onScatterChartButtonClick"/>
+
+    </HBox>
+</VBox>
