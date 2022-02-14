@@ -31,7 +31,7 @@ public class HelloController {
 
     @FXML
     public void onLineChartButtonClick(ActionEvent actionEvent) throws IOException {
-        LineChart line = new Line().getChart();
+        LineChart line = new Line(stage).getChart();
         displayChart(line);
     }
 
